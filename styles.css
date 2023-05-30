@@ -1,0 +1,57 @@
+h2 {
+    color: blue;
+    text-align: center;
+    text-transform: uppercase;
+}
+.form {
+    max-width: 500px; 
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #cccc;
+    border: 1px solid grey;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px darkgray;
+}
+.form label {
+    display: block;
+    margin-bottom: 15px;
+}
+.form input[type="text"],
+.form input[type="email"],
+.form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #cccc;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+}
+.form button {
+    background-color: rgb(33, 216, 33);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.form button:hover {
+background-color: rgb(7, 131, 7);
+box-shadow: 1px 2px 3px black;
+}
+.form input[type="text"].error,
+.form input[type="email"].error,
+.form textarea.error {
+    color: red;
+    font-size: 12px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+    border: 2px solid red;
+ }
+ .form input[type="text"].error + small,
+.form input[type="email"].error + small,
+.form textarea.error + small {
+    display: block;
+    color: red;
+    font-size: 12px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+ }

@@ -1,29 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./styles.css">
+    </link>
     <title>Document</title>
 </head>
+
 <body>
 
-    <h2>Contact Form</h2>
-    <form id="contactForm" name="contactForm" action="" method="post" onsubmit="">
+    <h2>Payment form example</h2>
+    <form id="contactForm" name="contactForm" action="" method="post" onsubmit="" class="form">
         <label for="name" class="">Name</label>
-        <input type="text" id="name" name="name" placeholder="John Wick">
-            <small>Mandatory field</small>
+        <input type="text" id="name" name="name" placeholder="John Wick*" class="error">
+        <small>Mandatory field</small>
         <label for="" class="">Email</label>
-        <input type="email" id="email" name="email" placeholder="john.wick@gmail.com">
-            <small>Mandatory field</small>
+        <input type="email" id="email" name="email" placeholder="john.wick@gmail.com*" class="error">
+        <small>Mandatory field</small>
         <label for="" class="">Message</label>
-        <textarea name="message" id="message" cols="30" rows="5" placeholder="exp: Your message here Mr. Wick">
-            <small>Mandatory field</small>
-        <button type="submit">Send Form</button>
+        <textarea name="message" id="message" cols="30" rows="5" placeholder="exp: Your message here Mr. Wick*"></textarea>
+        <button type="submit">Send form</button>
+    </form>
 
-    </form>/#ContactForm
-
-<script src="./jssmain.js"></script>
+    <script src="./jssmain.js"></script>
 </body>
+
 </html>
